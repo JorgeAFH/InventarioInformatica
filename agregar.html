@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Agregar equipo informático</title>
+	<link rel="stylesheet" href="stiloscontenido.css">
+</head>
+<body>
+	<nav>
+		<a class="active" href="inicio.html">Inicio</a>
+		<a href="buscar.html">Buscar</a>
+		<a href="vidautil.html">Vida util</a>
+		<a href="agregar.html">Agregar equipo</a>
+	</nav>
+
+	<div class="container">
+	<h1>Agregar equipo informático</h1>
+
+	<form action="" method="post">
+
+		<div class="form-control">
+		<label for="nombre">Nombre del equipo:</label>
+		<input type="text" id="nombre" name="nombre" required>
+		</div>
+
+		<div class="form-control">
+		<label for="marca">Marca:</label>
+		<input type="text" id="marca" name="marca" required>
+		</div>
+
+		<div class="form-control">
+		<label for="modelo">Modelo:</label>
+		<input type="text" id="modelo" name="modelo" required>
+		</div>
+
+		<div class="form-control">
+		<label for="serial">Número de serie:</label>
+		<input type="text" id="serial" name="serial" required>
+		</div>
+
+		<div class="form-control">
+		<label for="departamento">Departamento:</label>
+		<select id="departamento" name="departamento">
+			<option value="sistemas">Sistemas</option>
+			<option value="contabilidad">Contabilidad</option>
+			<option value="ventas">Ventas</option>
+		</select>
+		</div>
+
+		<div class="form-control">
+		<label for="estado">Estado:</label>
+		<select id="estado" name="estado">
+			<option value="nuevo">Nuevo</option>
+			<option value="usado">Usado</option>
+			<option value="defectuoso">Defectuoso</option>
+		</select>
+		</div>
+
+		<button type="submit">Buscar</button>
+	</form>
+</div>
+</body>
+</html>
