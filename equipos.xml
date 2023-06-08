@@ -1,0 +1,20 @@
+<equipos>
+  <equipo>
+    <nombre>Computadora de escritorio</nombre>
+    <descripcion>Equipo de escritorio con procesador Intel Core i5, 8 GB de RAM y disco duro de 1 TB</descripcion>
+    <estado>En uso</estado>
+    <departamento>Departamento de Contabilidad</departamento>
+  </equipo>
+  <equipo>
+    <nombre>Laptop Dell</nombre>
+    <descripcion>Laptop Dell XPS 13 con pantalla táctil, procesador Intel Core i7, 16 GB de RAM y SSD de 512 GB</descripcion>
+    <estado>Disponible</estado>
+    <departamento>Departamento de Ventas</departamento>
+  </equipo>
+  <equipo>
+    <nombre>Servidor HP</nombre>
+    <descripcion>Servidor HP ProLiant DL380 G7 con 2 procesadores Intel Xeon, 32 GB de RAM y discos duros en RAID</descripcion>
+    <estado>En reparación</estado>
+    <departamento>Departamento de IT</departamento>
+  </equipo>
+</equipos>

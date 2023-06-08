@@ -1,5 +1,7 @@
 body {
-  background-color: #f2f2f2;
+        background-image: url('fondo.avif');
+        background-repeat: no-repeat;
+        background-size: cover;
   font-family: Arial, sans-serif;
 }
 
@@ -47,7 +49,7 @@ select {
 }
 
 button {
-  background-color: #4CAF50;
+  background-color: #0000cc;
   border: none;
   border-radius: 3px;
   color: #fff;
@@ -81,7 +83,7 @@ nav {
     }
 
     .active {
-      background-color: #4CAF50;
+      background-color: #0000cc;
       color: white;
     }
 

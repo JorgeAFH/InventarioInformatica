@@ -1,0 +1,24 @@
+{
+  "equipos": {
+    "equipo": [
+      {
+        "nombre": "Computadora de escritorio",
+        "descripcion": "Equipo de escritorio con procesador Intel Core i5, 8 GB de RAM y disco duro de 1 TB",
+        "estado": "En uso",
+        "departamento": "Departamento de Contabilidad"
+      },
+      {
+        "nombre": "Laptop Dell",
+        "descripcion": "Laptop Dell XPS 13 con pantalla táctil, procesador Intel Core i7, 16 GB de RAM y SSD de 512 GB",
+        "estado": "Disponible",
+        "departamento": "Departamento de Ventas"
+      },
+      {
+        "nombre": "Servidor HP",
+        "descripcion": "Servidor HP ProLiant DL380 G7 con 2 procesadores Intel Xeon, 32 GB de RAM y discos duros en RAID",
+        "estado": "En reparación",
+        "departamento": "Departamento de IT"
+      }
+    ]
+  }
+}
